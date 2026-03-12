@@ -5,4 +5,4 @@ on:
 
 jobs:
   governance:
-    uses: BlueBuilr/.github/.github/workflows/pullRequestGovernance.yaml@main
+    uses: BlueBuildr/.github/.github/workflows/pullRequestGovernance.yaml@main
