@@ -1,0 +1,9 @@
+name: Workflow caller - pull request validator
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  verify-changelog:
+    if: github.event.pull_request.merged == true
+    uses: BlueBuildr/.github/.github/workflows/pullRequestValidator.yaml@main
