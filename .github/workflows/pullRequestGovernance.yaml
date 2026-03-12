@@ -3,6 +3,10 @@ name: Workflow caller - pull request governance
 on:
   pull_request:
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   governance:
     uses: BlueBuildr/.github/.github/workflows/pullRequestGovernance.yaml@main
