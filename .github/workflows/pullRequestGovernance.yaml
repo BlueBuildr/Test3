@@ -1,4 +1,4 @@
-name: Workflow caller - pull request governance
+name: PRWorkflow
 
 on:
   pull_request:
