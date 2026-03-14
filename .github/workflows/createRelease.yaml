@@ -1,4 +1,4 @@
-name: Workflow caller - create release
+name: CreateReleasse
 on:
   pull_request:
     types: [closed]
